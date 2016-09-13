@@ -8,10 +8,10 @@ Arduino driven radar with in-browser display.
 Prerequisites
 -------------
 
-Node.js (including npm)
-Arduino IDE
-Fritzing
-A modern web browser
+* Node.js (including npm)
+* Arduino IDE
+* Fritzing
+* A modern web browser
 
 
 Setup
