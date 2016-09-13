@@ -1,0 +1,20 @@
+{
+  
+    "name": "RadArdu",
+    "description": "Arduino driven radar with in browser display.",
+    "version": "1.0.0",
+    "author": "ova-pana",
+    "license": "MIT",
+    "private": true,
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "dependencies": {
+        "express": "*",
+        "http": "*",
+        "socket.io": "*",
+        "serialport": "*"
+    } 
+
+}

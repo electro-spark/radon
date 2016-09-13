@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Radar</title>
+        <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.4/themes/black-tie/jquery-ui.css" >
+        <link rel="stylesheet" type="text/css" href="/css/style.css" >
+    </head>
+    <body>
+    	<header>
+    	</header>
+        <canvas id="radar">
+            Cannot display control. Your browser does not support canvas.
+        </canvas>
+        <footer>
+        	<div id="text-container">
+        		<input type="text" id="zoom-text" readonly value="Zoom: 0%" />
+        	</div>
+        	<div id="slider-container">
+        		<div id="zoom-slider"></div>
+        	</div>
+        </footer>
+ 
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+        <script src="/js/radar.js"></script>
+        <script src="/js/client.js"></script>
+    </body>
+</html>
