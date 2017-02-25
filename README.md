@@ -4,6 +4,8 @@ Radon
 
 Arduino driven radar with in-browser display.
 
+![Alt text](https://raw.githubusercontent.com/electro-spark/radon/master/radon.png "Screenshot")
+
 
 Prerequisites
 -------------
